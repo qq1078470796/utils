@@ -1,0 +1,82 @@
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.client.protocol.RequestAddCookies] - CookieSpec selected: default
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.client.protocol.RequestAuthCache] - Auth cache not set in the context
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection request: [route: {}->http://www.tuling123.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection leased: [id: 0][route: {}->http://www.tuling123.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.execchain.MainClientExec] - Opening connection {}->http://www.tuling123.com:80
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] - Connecting to www.tuling123.com/47.95.179.180:80
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] - Connection established 192.168.0.102:5559<->47.95.179.180:80
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.execchain.MainClientExec] - Executing request GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E9%B8%9F&userid=1 HTTP/1.1
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.execchain.MainClientExec] - Target auth state: UNCHALLENGED
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.execchain.MainClientExec] - Proxy auth state: UNCHALLENGED
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E9%B8%9F&userid=1 HTTP/1.1
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Host: www.tuling123.com
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Connection: Keep-Alive
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_112)
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E9%B8%9F&userid=1 HTTP/1.1[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Host: www.tuling123.com[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_112)[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Date: Tue, 04 Jun 2019 14:32:34 GMT[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Content-Type: text/json; charset=UTF-8[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "3d[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "{"code":100000,"text":"[0xe6][0x88][0x91][0xe6][0x83][0xb3][0xe4][0xb8][0x8e][0xe4][0xb8][0xbb][0xe4][0xba][0xba][0xe4][0xb8][0x80][0xe8][0xb5][0xb7][0xe7][0x9c][0x8b][0xe9][0xb8][0x9f][0xe8][0xb5][0xb7][0xe9][0xb8][0x9f][0xe8][0x90][0xbd]"}[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Date: Tue, 04 Jun 2019 14:32:34 GMT
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Content-Type: text/json; charset=UTF-8
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Transfer-Encoding: chunked
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Connection: keep-alive
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.execchain.MainClientExec] - Connection can be kept alive indefinitely
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "0[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection [id: 0][route: {}->http://www.tuling123.com:80] can be kept alive indefinitely
+[DEBUG][main][2019-06-04 22:32:29][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection released: [id: 0][route: {}->http://www.tuling123.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.client.protocol.RequestAddCookies] - CookieSpec selected: default
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.client.protocol.RequestAuthCache] - Auth cache not set in the context
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection request: [route: {}->http://www.tuling123.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection leased: [id: 0][route: {}->http://www.tuling123.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.execchain.MainClientExec] - Opening connection {}->http://www.tuling123.com:80
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] - Connecting to www.tuling123.com/47.95.179.180:80
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] - Connection established 192.168.0.102:5563<->47.95.179.180:80
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.execchain.MainClientExec] - Executing request GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E4%BD%A0%E5%A5%BD&userid=1 HTTP/1.1
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.execchain.MainClientExec] - Target auth state: UNCHALLENGED
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.execchain.MainClientExec] - Proxy auth state: UNCHALLENGED
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E4%BD%A0%E5%A5%BD&userid=1 HTTP/1.1
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Host: www.tuling123.com
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Connection: Keep-Alive
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_112)
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "GET /openapi/api?key=6e65efcbc27f4021ba301d0955a22ecc&info=%E4%BD%A0%E5%A5%BD&userid=1 HTTP/1.1[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Host: www.tuling123.com[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_112)[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 >> "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Date: Tue, 04 Jun 2019 14:32:53 GMT[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Content-Type: text/json; charset=UTF-8[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "43[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "{"code":100000,"text":"[0xe6][0x88][0x91][0xe6][0x9c][0x80][0xe5][0xbc][0x80][0xe5][0xbf][0x83][0xe7][0x9a][0x84][0xe4][0xba][0x8b][0xe5][0xb0][0xb1][0xe6][0x98][0xaf][0xe7][0x9c][0x8b][0xe5][0x88][0xb0][0xe4][0xbd][0xa0][0xe5][0xa5][0xbd][0xe5][0xa5][0xbd][0xe7][0x9a][0x84]"}[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Date: Tue, 04 Jun 2019 14:32:53 GMT
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Content-Type: text/json; charset=UTF-8
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Transfer-Encoding: chunked
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Connection: keep-alive
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.LoggingManagedHttpClientConnection] - http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.execchain.MainClientExec] - Connection can be kept alive indefinitely
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "0[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.Wire] - http-outgoing-0 << "[\r][\n]"
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection [id: 0][route: {}->http://www.tuling123.com:80] can be kept alive indefinitely
+[DEBUG][main][2019-06-04 22:32:48][org.apache.http.impl.conn.PoolingHttpClientConnectionManager] - Connection released: [id: 0][route: {}->http://www.tuling123.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
